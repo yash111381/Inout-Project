@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CONFUSED???"
+        android:textStyle="bold"
+        android:textColor="@color/material_deep_teal_500"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/bTaxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Look For Taxis"
+        android:layout_marginTop="20dp" />
+    
+    <ImageView android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/taxi"/>
+
+    <Button
+        android:id="@+id/bHotel"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Look For Hotels" />
+    <ImageView android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hotel"/>
+
+</LinearLayout>

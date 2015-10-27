@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+       <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:text="" >
+    </EditText>
+
+ <EditText
+        android:id="@+id/etReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.53"
+        android:gravity="top"
+        android:hint="Write Review"
+        android:text="" >
+    </EditText>
+    <TextView 
+      android:id="@+id/tvExpense"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Expenses you encountered"
+      android:textColor="@color/material_deep_teal_500"
+      android:textSize="23dp"
+      android:gravity="center" />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+  <TextView 
+      android:id="@+id/tvRate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Give your Rating for the place"
+      android:textColor="@color/material_deep_teal_500"
+      android:textSize="23dp"
+      android:gravity="center" />
+  <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true" />
+    
+  
+
+ 
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:onClick="save" />
+
+</LinearLayout>

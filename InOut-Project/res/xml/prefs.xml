@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference
+        android:title="Expenses Range"
+        android:summary="Select your range for expenses"
+        android:entries="@array/list"
+        android:entryValues="@array/listValues"
+        android:key="exp"
+        >
+        
+    </ListPreference>
+	<EditTextPreference
+	    android:title="Name"
+	    android:summary="Enter your Name"
+	    android:key="name"
+	    android:defaultValue="User">
+	    </EditTextPreference>
+	    
+	<CheckBoxPreference
+	    android:title="Start-up Tone"
+	    android:summaryOn="Good Listener"
+	    android:summaryOff="Silence is peaceful"
+	    android:key="tone"
+	    android:enabled="true"
+	    ></CheckBoxPreference>
+    
+    
+</PreferenceScreen>

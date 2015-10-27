@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:textSize="30sp"
+     android:textStyle="bold"
+     android:typeface="serif" />
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" >
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="92dp"
+         android:layout_height="wrap_content"
+         android:text="Average Rating"
+         android:textSize="25sp" />
+
+     <RatingBar
+         android:id="@+id/ratingBar1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:clickable="true" />
+
+ </LinearLayout>
+
+ <TextView
+     android:id="@+id/textView4"
+     android:layout_width="match_parent"
+     android:layout_height="82dp"
+     android:text=" "
+     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ <TextView
+     android:id="@+id/textView2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:text="Review List :"
+     android:textSize="25sp"
+     android:textStyle="bold"
+     android:typeface="serif" />
+
+    <LinearLayout
+        android:id="@+id/lyt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/listView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:longClickable="false"
+            android:textColor="#009900"
+            android:typeface="serif" >
+
+        </ListView>
+
+    </LinearLayout>
+</LinearLayout>

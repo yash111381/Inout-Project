@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item >High Expenses above 5 lakhs</item>
+        <item >Medium Expenses upto 5 lakhs</item>
+        <item >Low Expenses below 1 lakh</item>
+       </string-array>
+      <integer-array name="listValues">
+        <item >600000</item>
+        <item >250000</item>
+        <item >50000</item>
+        </integer-array>
+</resources>
